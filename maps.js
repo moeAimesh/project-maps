@@ -19,7 +19,7 @@ function findeStandort() {
 
                 // Marker an der Position des Nutzers hinzufügen
                 L.marker([lat, lon]).addTo(map)
-                    .bindPopup("IS THIS YOU ?")
+                    .bindPopup("IS THIS YOU ??")
                     .openPopup();
             },
             function(error) {
